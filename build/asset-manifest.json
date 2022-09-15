@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/business-card/static/js/main.d9851c14.js",
+    "static/media/miikkak_vanilla2.png": "/business-card/static/media/miikkak_vanilla2.7d36fada2dccd5dc22a0.png",
+    "index.html": "/business-card/index.html",
+    "main.d9851c14.js.map": "/business-card/static/js/main.d9851c14.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d9851c14.js"
+  ]
+}
