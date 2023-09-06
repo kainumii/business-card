@@ -4,7 +4,7 @@ import { Typography } from "@mui/material";
 const Info = () => {
   return (
     <>
-      <Typography align="center" variant="h6">
+      <Typography align="center" variant="h5">
         Miikka Kainu
       </Typography>
       <Typography align="center" variant="body2" sx={{ color: "#ad674e" }}>

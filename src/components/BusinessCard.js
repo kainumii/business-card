@@ -14,6 +14,7 @@ import { styled } from "@mui/material/styles";
 import Collapse from "@mui/material/Collapse";
 import profilePic from "../images/miikkak_vanilla2.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Info from "./Info";
 
 const ExpandMore = styled((props: ExpandMoreProps) => {
   const { expand, ...other } = props;
@@ -52,12 +53,7 @@ const BusinessCard = () => {
           sx={{ width: "60%", m: 5, border: 1, borderColor: "white" }}
         />
         <CardContent>
-          <Typography align="center" variant="h6">
-            Miikka Kainu
-          </Typography>
-          <Typography align="center" variant="body2" sx={{ color: "#ad674e" }}>
-            Fullstack Developer | React | C# .Net
-          </Typography>
+          <Info />
         </CardContent>
 
         <CardActions>
@@ -103,9 +99,10 @@ const BusinessCard = () => {
               with designing and programming in different domains. I have been
               developing Windows based testing and maintenance tools for mobile
               phones. I have also experience from healthcare systems as a
-              developer role. Also I have been working in a project developing
-              automotive HMI for a major European OEM. Most familiar programming
-              languages to me are C# and C++.
+              developer role using C#, ASP.NET C#, JavaScript, REST and Git.
+              Also I have been working in a project developing automotive HMI
+              for a major European OEM. Most familiar programming languages to
+              me are C# and C++.
             </Typography>
             <hr />
             <Typography variant="h6">Interests</Typography>
